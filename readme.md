@@ -1,8 +1,9 @@
 ## Description:
 * Blog site with simple html, css and bootstrap methods 
 
+* Install required packages to run the project **pip install -r requirements.txt**
      
-     In the same directory as settings.py, create a file called ‘.env’ to start using django-environ and store secret keys.
+* In the same directory as settings.py, create a file called ‘.env’ to start using django-environ and store secret keys.
      
      .env file should look like this:
      
