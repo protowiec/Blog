@@ -1,18 +1,5 @@
-
-## 2. ImageBlog
-
-### Description:
+## Description:
 * Blog site with simple html, css and bootstrap methods 
-
-### Technologies:
-* django-environ           0.9.0
-* django-dotenv            1.4.2
-* selenium                 4.2.0
-* djangorestframework      3.13.1
-* Markdown                 3.3.7
-* django-jquery            3.1.0
-* webdriver-manager        3.7.0
-* PyYAML                   5.3.1
 
      
      In the same directory as settings.py, create a file called ‘.env’ to start using django-environ and store secret keys.
