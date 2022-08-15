@@ -1,41 +1,33 @@
- ImageBlog
-Description:
 
-    Blog site with simple html, css and bootstrap methods
+## 2. ImageBlog
 
-Technologies:
+### Description:
+* Blog site with simple html, css and bootstrap methods 
 
-    django-environ 0.9.0
+### Technologies:
+* django-environ           0.9.0
+* django-dotenv            1.4.2
+* selenium                 4.2.0
+* djangorestframework      3.13.1
+* Markdown                 3.3.7
+* django-jquery            3.1.0
+* webdriver-manager        3.7.0
+* PyYAML                   5.3.1
 
-    django-dotenv 1.4.2
+     
+     In the same directory as settings.py, create a file called ‘.env’ to start using django-environ and store secret keys.
+     
+     .env file should look like this:
+     
+      EMAIL_HOST_PASSWORD=SG.56_LuERTCQ2eIsao2gFVKLg.WJUIDFRpJK3pa-KgwCAe0U345I_IF_jlU0Xm-3aaCMXY
+      SECRET_KEY=django-insecure-1r0s5r%b#b=n_=*dg^6p^qc%7t_cgtrraisy@l=ne2yp$290rw
+      GH_TOKEN=ghp_x912ia5bimtrnuWsrrAUXxQKCcMtfi3jNTVN
 
-    selenium 4.2.0
-
-    djangorestframework 3.13.1
-
-    Markdown 3.3.7
-
-    django-jquery 3.1.0
-
-    webdriver-manager 3.7.0
-
-    PyYAML 5.3.1
-
-    In the same directory as settings.py, create a file called ‘.env’ to start using django-environ and store secret keys.
-
-    .env file should look like this:
-
-    EMAIL_HOST_PASSWORD=SG.56_LuERTCQ2eIsao2gFVKLg.WJUIDFRpJK3pa-KgwCAe0U345I_IF_jlU0Xm-3aaCMXY
-    SECRET_KEY=django-insecure-1r0s5r%b#b=n_=*dg^6p^qc%7t_cgtrraisy@l=ne2yp$290rw
-    GH_TOKEN=ghp_x912ia5bimtrnuWsrrAUXxQKCcMtfi3jNTVN
-
-Features:
-
-    Generic views
-    Post creating by logged in users
-    Selenium implemented for tests
-    Working restFramework
-    Hidden passwords by environ
-    Liking and unliking posts
-    Some fun with front-end
-
+### Features:
+* Generic views
+* Post creating by logged in users
+* Selenium implemented for tests
+* Working restFramework
+* Hidden passwords by environ
+* Liking and unliking posts
+* Some fun with front-end
